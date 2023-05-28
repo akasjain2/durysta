@@ -1,1 +1,20 @@
 /* below the fold CSS goes here */
+
+@font-face{
+    font-family:"ITC Avant Garde Gothic W01 Bk";
+    src:url("https://fast.fonts.net/dv2/14/6f1146c0-9c0b-4949-866d-9affc396531f.woff2?d44f19a684109620e484147ea390e81836c80ef2a06a33cb3702b21fa86c7e20989729f56d4cc62e1a906f2486ba38746a67ab7ef28dfd112e18fec9ad4ccb284f15fb1189d862044842&projectId=658f81da-a529-4633-b58f-fb2a0e74b9ec") format('woff2');}
+@font-face{
+    font-family:"ITC Avant Garde Gothic W01 Md";
+    src:url("https://fast.fonts.net/dv2/14/39dda6db-d579-4a2e-b67c-abf7d732b97c.woff2?d44f19a684109620e484147ea390e81836c80ef2a06a33cb3702b21fa86c7e20989729f56d4cc62e1a906f2486ba38746a67ab7ef28dfd112e18fec9ad4ccb284f15fb1189d862044842&projectId=658f81da-a529-4633-b58f-fb2a0e74b9ec") format('woff2');}
+@font-face{
+    font-family:"ITC Avant Garde GothicW01MdObl";
+    src:url("https://fast.fonts.net/dv2/14/875a6d40-16f2-4752-9dee-692055c7b333.woff2?d44f19a684109620e484147ea390e81836c80ef2a06a33cb3702b21fa86c7e20989729f56d4cc62e1a906f2486ba38746a67ab7ef28dfd112e18fec9ad4ccb284f15fb1189d862044842&projectId=658f81da-a529-4633-b58f-fb2a0e74b9ec") format('woff2');}
+@font-face{
+    font-family:"ITC Avant Garde Gothic W01 Dm";
+    src:url("https://fast.fonts.net/dv2/14/8bfba692-98b4-401d-b187-205f59d508cf.woff2?d44f19a684109620e484147ea390e81836c80ef2a06a33cb3702b21fa86c7e20989729f56d4cc62e1a906f2486ba38746a67ab7ef28dfd112e18fec9ad4ccb284f15fb1189d862044842&projectId=658f81da-a529-4633-b58f-fb2a0e74b9ec") format('woff2');}
+@font-face{
+    font-family:"ITC Avant Garde Gothic W01 Bd";
+    src:url("https://fast.fonts.net/dv2/14/4cadb55f-822a-4a35-8918-becfc5a866a3.woff2?d44f19a684109620e484147ea390e81836c80ef2a06a33cb3702b21fa86c7e20989729f56d4cc62e1a906f2486ba38746a67ab7ef28dfd112e18fec9ad4ccb284f15fb1189d862044842&projectId=658f81da-a529-4633-b58f-fb2a0e74b9ec") format('woff2');}
+@font-face{
+    font-family:"Felt Tip Roman W01 Reg";
+    src:url("https://fast.fonts.net/dv2/14/af742175-a812-4c4f-83d3-c9689f8c41da.woff2?d44f19a684109620e484147ea390e81836c80ef2a06a33cb3702b21fa86c7e20989729f56d4cc62e1a906f2486ba38746a67ab7ef28dfd112e18fec9ad4ccb284f15fb1189d862044842&projectId=658f81da-a529-4633-b58f-fb2a0e74b9ec") format('woff2');}
