@@ -211,7 +211,7 @@ header nav .nav-sections ul:after, header nav .nav-sections ul:before {
     display: flex;
     justify-content: flex-start;
     font-size: var(--body-font-size-xs);
-    margin-top: 0px;
+    margin-top: 0;
 
   }
 
@@ -240,52 +240,74 @@ header nav .nav-sections ul:after, header nav .nav-sections ul:before {
 
 /* tools */
 header nav .nav-tools {
+  /*
   grid-area: tools;
-  position: absolute;
-  display: block;
-  background: #00806e;
-  width: 100%;
-  margin-top: 130px;
+  */
   z-index: 99;
   padding: 0;
+  position: absolute;
+  margin-top: 160px;
+  width: 100%;
   margin-left: 0;
+  left: 0;
+  color: white;
+  display: block;
+  background: #00806e;
+
 }
 
 header nav .nav-tools ul{
+  margin: 0 auto;
+  max-width: 1160px;
+  padding-left: 16px;
+  padding-right: 32px;
   display: flex;
   justify-content: flex-start;
-  padding-left: 16px;
   flex-direction: row;
-  list-style: none;
-}
-
-header nav .nav-tools ul:after, header nav .nav-tools ul:before {
-  /*
-  content: "";
-  display: table;
-  clear: both;
-  */
 }
 
 header nav .nav-tools ul li {
+  list-style: none;
   margin-top: 0;
+  padding: 0px 26px 0px 26px;
   height: auto;
-  border-right: none;
-  float: left;
-  text-align: center;
   text-decoration: none;
-  padding: 0;
-  background-size: 100%;
+  text-align: center;
   font-family: var(--body-font-family);
   font-weight: 500;
   font-size: var(--heading-font-size-xs);
 }
-
 header nav .nav-tools ul li a{
-  padding: 14px 35px;
+  /*
+  padding: 6px 35px;
+  */
+  margin-top: 0;
+  height: auto;
+  border: none;
   text-align: center;
-  line-height: 1.25;
+  font-size: var(--body-font-size-m);
+  flex-basis: available;
   position: relative;
-  width: 50px;
   word-wrap: normal;
+  text-decoration: none;
+}
+
+header nav .nav-tools ul li a:after {
+  content: "";
+  border-right: 1px solid #fff;
+  position: absolute;
+  width: 1px;
+  height: 25px;
+  display: inline-block;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+header nav .nav-tools ul li:hover {
+  background: #ffc60b;
 }
